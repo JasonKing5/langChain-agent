@@ -22,6 +22,7 @@ if missing_vars:
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 os.environ["OPENAI_API_BASE_URL"] = os.getenv("OPENAI_API_BASE_URL")
 os.environ["DEEPSEEK_API_KEY"] = os.getenv("DEEPSEEK_API_KEY")
+os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 
 # Create the agent
 memory = MemorySaver()
